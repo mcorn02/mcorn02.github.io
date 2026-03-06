@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# Claude project memory
+.claude/
+
+# Reference/inspiration files
+website_inspiration.png
