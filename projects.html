@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Michael Corn</title>
+  <meta name="description" content="Projects by Michael Corn — AI, NLP, and full-stack work." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav scrolled" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-wordmark">Michael Corn</a>
+      <ul class="nav-links">
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="page">
+    <div class="section">
+      <p class="section-label">Work</p>
+      <h1 class="section-title">Projects</h1>
+
+      <div class="projects-grid">
+
+        <!-- Aspect-Level Sentiment Analyzer -->
+        <a
+          class="project-card"
+          href="https://tinyurl.com/mts4sjkm"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div class="project-card-header">
+            <span class="project-name">Aspect-Level Sentiment Analyzer</span>
+            <svg class="project-link-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+              <polyline points="15 3 21 3 21 9"/>
+              <line x1="10" y1="14" x2="21" y2="3"/>
+            </svg>
+          </div>
+          <p class="project-desc">
+            End-to-end sentiment analysis for movie reviews — surfacing exactly what worked and what didn't for studios. Goes beyond positive/negative to deliver aspect-level insights that make review data actually useful.
+          </p>
+          <p class="project-desc" style="font-size:14px; color: var(--text-muted); margin-top:0.1rem;">
+            Currently building this into a customer-facing full-stack application.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">NLP</span>
+            <span class="tag">Transformers</span>
+            <span class="tag">ML</span>
+          </div>
+        </a>
+
+        <!-- The Crash App -->
+        <a
+          class="project-card"
+          href="https://github.com/alexziao05/innovate-4-sdsu-hackathon-2025"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div class="project-card-header">
+            <span class="project-name">The Crash App</span>
+            <svg class="project-link-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+              <polyline points="15 3 21 3 21 9"/>
+              <line x1="10" y1="14" x2="21" y2="3"/>
+            </svg>
+          </div>
+          <p class="project-desc">
+            SDSU students needed a better way to handle car accidents in tight campus parking lots. The Crash App enables easy, incentivized incident reporting — including hit-and-runs — to build a safer campus community.
+          </p>
+          <p class="project-desc" style="font-size:14px; color: var(--text-muted); margin-top:0.1rem;">
+            Built at Innovate 4 SDSU Hackathon 2025.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Hackathon</span>
+            <span class="tag">Mobile</span>
+            <span class="tag">Full-Stack</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Michael Corn
+  </footer>
+
+  <script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 10);
+    });
+  </script>
+
+</body>
+</html>

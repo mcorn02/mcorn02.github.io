@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — Michael Corn</title>
+  <meta name="description" content="Writing by Michael Corn on AI, engineering, and building." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav scrolled" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-wordmark">Michael Corn</a>
+      <ul class="nav-links">
+        <li><a href="blog.html" class="active">Blog</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="page">
+    <div class="section">
+      <p class="section-label">Writing</p>
+      <h1 class="section-title">Blog</h1>
+
+      <div class="blog-list">
+
+        <!-- Add posts here. Example structure:
+
+        <a class="blog-post" href="posts/post-title.html">
+          <span class="blog-post-title">Your Post Title</span>
+          <span class="blog-post-meta">March 2025</span>
+          <span class="blog-post-desc">A one-line description of what this post covers.</span>
+        </a>
+
+        -->
+
+        <p class="blog-empty">Posts coming soon.</p>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Michael Corn
+  </footer>
+
+  <script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 10);
+    });
+  </script>
+
+</body>
+</html>

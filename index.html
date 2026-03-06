@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Michael Corn</title>
+  <meta name="description" content="Michael Corn — AI researcher and builder. Senior CS student at SDSU." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-wordmark">Michael Corn</a>
+      <ul class="nav-links">
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <main class="page">
+    <section class="hero">
+
+      <div class="blob-container" aria-hidden="true">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+      </div>
+
+      <div class="hero-content">
+        <h1 class="hero-greeting">hey, I'm Michael Corn<span class="hero-accent-dot"></span></h1>
+        <p class="hero-sub">AI Researcher &amp; Builder</p>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Michael Corn
+  </footer>
+
+  <script>
+    // Frosted nav on scroll
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 10);
+    });
+  </script>
+
+</body>
+</html>
