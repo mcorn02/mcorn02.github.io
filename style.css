@@ -212,24 +212,24 @@ img {
 .blob-text-1 {
   width: 500px;
   height: 320px;
-  background: #A8C4D8;
+  background: #5A89AA;
   top: 50%;
   left: 50%;
   transform: translate(-65%, -60%);
   filter: blur(72px);
-  opacity: 0.32;
+  opacity: 0.55;
   animation: blob-drift-text-1 16s infinite alternate;
 }
 
 .blob-text-2 {
   width: 380px;
   height: 280px;
-  background: #C5D8E8;
+  background: #7BA8C4;
   top: 50%;
   left: 50%;
   transform: translate(-30%, -35%);
   filter: blur(64px);
-  opacity: 0.28;
+  opacity: 0.45;
   animation: blob-drift-text-2 20s infinite alternate;
 }
 
