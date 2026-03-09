@@ -82,10 +82,17 @@ img {
   letter-spacing: -0.01em;
   color: var(--text-head);
   transition: opacity 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
 }
 
 .nav-wordmark:hover {
-  opacity: 0.0;
+  opacity: 0.6;
+}
+
+.nav-wordmark svg {
+  flex-shrink: 0;
 }
 
 .nav-links {
