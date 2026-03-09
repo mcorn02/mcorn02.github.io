@@ -6,3 +6,9 @@
 
 # Reference/inspiration files
 website_inspiration.png
+
+agents/
+
+*.jpg
+
+CLAUDE.md

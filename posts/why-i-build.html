@@ -3,52 +3,71 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Blog — Michael Corn</title>
-  <meta name="description" content="Writing by Michael Corn on AI, engineering, and building." />
+  <title>Why I Build — Michael Corn</title>
+  <meta name="description" content="A reflection on what drives me to keep shipping things, even when nobody's watching." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="prefetch" href="index.html" />
-  <link rel="prefetch" href="about.html" />
-  <link rel="prefetch" href="projects.html" />
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="prefetch" href="../blog.html" />
 </head>
 <body>
 
   <!-- Navigation -->
   <nav class="nav scrolled" id="nav">
     <div class="nav-inner">
-      <a href="index.html" class="nav-wordmark">Michael Corn</a>
+      <a href="../index.html" class="nav-wordmark">Michael Corn</a>
       <ul class="nav-links">
-        <li><a href="blog.html" class="active">Blog</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="../blog.html" class="active">Blog</a></li>
+        <li><a href="../projects.html">Projects</a></li>
+        <li><a href="../about.html">About</a></li>
       </ul>
     </div>
   </nav>
 
   <main class="page">
     <div class="section">
-     
-      <h1 class="section-title">Blog</h1>
+      <div class="post-wrap">
 
-      <div class="blog-list">
-
-        <!-- Add posts here. Example structure:
-
-        <a class="blog-post" href="posts/post-title.html">
-          <span class="blog-post-title">Your Post Title</span>
-          <span class="blog-post-meta">March 2025</span>
-          <span class="blog-post-desc">A one-line description of what this post covers.</span>
+        <a class="post-back" href="../blog.html">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+          Back to blog
         </a>
 
-        -->
+        <header class="post-header">
+          <h1 class="post-title">Why I Build</h1>
+          <p class="post-meta">March 2026 &middot; 3 min read</p>
+        </header>
 
-        <a class="blog-post" href="posts/why-i-build.html">
-          <span class="blog-post-title">Why I Build</span>
-          <span class="blog-post-meta">March 2026</span>
-          <span class="blog-post-desc">A reflection on what drives me to keep shipping things, even when nobody's watching.</span>
-        </a>
+        <div class="post-body">
+          <p>
+            There's a specific feeling I chase. It happens somewhere between having an idea and showing it to someone — that window where a thing exists only in your head, then slowly becomes real. Most of the time nobody's watching. That's kind of the point.
+          </p>
+
+          <p>
+            I've shipped things that got zero users. Projects that took weeks and got one GitHub star (mine). I've also built things that people actually used, that solved real problems. Both kinds taught me something the other couldn't.
+          </p>
+
+          <h2>Building is thinking made visible</h2>
+
+          <p>
+            I notice I don't fully understand something until I've tried to build it. Reading about how a transformer works is one thing. Implementing attention from scratch — even badly — is different. The gaps in your mental model show up immediately when the code won't run.
+          </p>
+
+          <p>
+            This is why I keep side projects going even when they go nowhere commercially. They're how I think. The artifact isn't always the point; the process usually is.
+          </p>
+
+          <h2>The compounding part</h2>
+
+          <p>
+            What I didn't expect when I started was how much carries forward. Not just code or frameworks, but the pattern of how to approach a blank file, how to scope something to actually finish it, how to cut features without feeling like you're giving up. Each project makes the next one a little less hard to start.
+          </p>
+
+          <p>
+            I'm still pretty early. But I think the answer to "why build" is the same reason people write in journals or take photos — to make sense of things, and to have something to show for the time.
+          </p>
+        </div>
 
       </div>
     </div>
