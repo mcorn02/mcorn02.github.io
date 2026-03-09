@@ -7,7 +7,8 @@
   <meta name="description" content="Projects by Michael Corn — AI, NLP, and full-stack work." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" /></noscript>
   <link rel="stylesheet" href="style.css" />
   <link rel="prefetch" href="index.html" />
   <link rel="prefetch" href="about.html" />
@@ -119,6 +120,14 @@
       nav.classList.toggle('scrolled', window.scrollY > 10);
     });
   </script>
+
+  <script type="speculationrules">
+{
+  "prerender": [
+    { "urls": ["index.html", "about.html", "projects.html", "blog.html"] }
+  ]
+}
+</script>
 
 </body>
 </html>
