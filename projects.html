@@ -28,6 +28,48 @@
 
       <div class="projects-grid">
 
+        <!-- Architectural PDF Extractor -->
+        <div class="project-card">
+          <div class="project-card-header">
+            <span class="project-name">Architectural PDF Extractor</span>
+          </div>
+          <p class="project-desc">
+            A tool for flooring contractors that automatically scans large architectural PDF packages and extracts floor plans, elevations, finish schedules, and sheet indexes. Aiming to automate the estimating process to maximize efficiency and accuracy.
+          </p>
+          <p class="project-desc" style="font-size:14px; color: var(--text-muted); margin-top:0.1rem;">
+            Runs a three-tier classification pipeline per page: embedded text extraction, Tesseract OCR fallback for scanned drawings, and Claude Vision as a last resort for unresolved pages. Handles the ~50/50 split between clean CAD exports and messy scans.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">PyMuPDF</span>
+            <span class="tag">OCR</span>
+            <span class="tag">Claude API</span>
+            <span class="tag">FastAPI</span>
+            <span class="tag">React</span>
+            <span class="tag" style="background: #f0f4f8; color: var(--accent);">In Progress</span>
+          </div>
+        </div>
+
+        <!-- Gradeflow AI Feedback -->
+        <div class="project-card">
+          <div class="project-card-header">
+            <span class="project-name">AI Assignment Feedback — Gradeflow Startup</span>
+          </div>
+          <p class="project-desc">
+            Focusing on AI-powered feedback tools that give students accurate, granular commentary on their assignments — going beyond a grade to surface exactly what was strong, what fell short, and why. Aligned to instructor grading standards to make automated feedback feel as consistent and intentional as a human reviewer.
+          </p>
+          <p class="project-desc" style="font-size:14px; color: var(--text-muted); margin-top:0.1rem;">
+            Achieved 5% better alignment with instructor rubrics via structured JSON output schemas enforced across 150+ assignment examples. Built a synthetic data pipeline to stress-test edge cases and validate model behavior.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Gemini</span>
+            <span class="tag">LLM</span>
+            <span class="tag">Structured Outputs</span>
+            <span class="tag">MCP</span>
+          </div>
+        </div>
+
         <!-- Aspect-Level Sentiment Analyzer -->
         <a
           class="project-card"
@@ -44,10 +86,10 @@
             </svg>
           </div>
           <p class="project-desc">
-            End-to-end sentiment analysis for movie reviews — surfacing exactly what worked and what didn't for studios. Goes beyond positive/negative to deliver aspect-level insights that make review data actually useful.
+            End-to-end sentiment analysis for movie reviews — surfacing exactly what worked and what didn't for movie studios. Goes beyond positive/negative to deliver aspect-level insights that make review data actually useful.
           </p>
           <p class="project-desc" style="font-size:14px; color: var(--text-muted); margin-top:0.1rem;">
-            Currently building this into a customer-facing full-stack application.
+            Currently building this into a customer-facing full-stack application for any domain.
           </p>
           <div class="project-tags">
             <span class="tag">Python</span>
